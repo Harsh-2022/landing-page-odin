@@ -1,0 +1,172 @@
+body{
+    font-family: 'Roboto';
+    margin:0px;
+}
+
+.header{
+    display:flex;
+    padding: 16px 180px;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+}
+
+.first,
+.footer{
+    background-color: #1F2937;
+}
+
+.intro{
+    display: flex;
+    padding: 96px 180px;
+    justify-content: space-between;
+
+}
+.hero{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary,
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;   
+    padding:80px 240px;
+}
+.qt{
+    font-size: 32px;
+    font-weight: 0;
+    font-style: italic;
+    color: #1F2937;
+}
+.speaker{
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 20px;
+    padding-right: 36px;
+}
+
+.content-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    padding:0px;
+    margin:0px;
+    gap:16px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.placeholder{
+    background-color:lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:96px;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding:4px 16px;
+    color: #F9FAF8;
+    cursor: pointer;
+   
+}
+
+.signup{
+    align-self: flex-start;
+    border-width: 1px;
+}
+
+
+.content{
+    text-align: center;
+}
+.content-title{
+    margin: 32px;
+}
+.information{
+    display: flex;
+    gap:84px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+.info{
+    max-width: 100px;
+}
+
+
+.last{
+    background-color: #3882F6;
+    margin:50px 100px;
+    padding:30px 60px;
+    display: flex;
+    align-items:center;
+    color: #F9FAF8;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+.right{
+    border-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    /* align-self: center; */
+    border-width: 2px;
+    border-style: solid;
+}
+.l1{
+    font-weight: bold;
+    font-size: medium;
+}
+.l2{
+    font-weight: 0;
+    font-size: smaller;
+    color:#E5E7EB
+}
+.footer{
+    color: #F9FAF8;
+    text-align: center;
+    padding: 32px;
+}
