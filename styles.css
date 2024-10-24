@@ -31,7 +31,7 @@ body{
     width:400px;
     display: flex;
     flex-direction: column;
-    gap:8px;
+    gap:16px;
 }
 
 .hero-main{
@@ -111,6 +111,7 @@ button{
 .signup{
     align-self: flex-start;
     border-width: 1px;
+    padding: 8px 16px;
 }
 
 
